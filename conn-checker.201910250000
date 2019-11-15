@@ -1,0 +1,3 @@
+time="2019-10-25T17:23:50+02:00" level=error msg="emailHook set up error" error="dial tcp :0: connect: connection refused"
+time="2019-10-25T17:23:50+02:00" level=fatal msg="setup SMTP error: dial tcp :0: connect: connection refused"
+time="2019-10-25T17:29:11+02:00" level=error msg="Cannot get reply from payment service." error="rpc error: code = Unavailable desc = all SubConns are in TransientFailure, latest connection error: connection error: desc = \"transport: Error while dialing dial tcp: lookup payment: no such host\""

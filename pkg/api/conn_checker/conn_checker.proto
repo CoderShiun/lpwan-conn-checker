@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package conn_checker;
+
+import "google/protobuf/empty.proto";
+
+service ConnCheckerServerService {
+    rpc CheckConnection (google.protobuf.Empty) returns (ConnResponse);
+}
+
+message ConnResponse {
+    string status = 1;
+}

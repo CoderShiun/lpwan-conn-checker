@@ -1,0 +1,32 @@
+[general]
+# Log level
+#
+# debug=5, info=4, warning=3, error=2, fatal=1, panic=0
+log_level=5
+
+[paymentserver]
+payment_service_address="payment"
+payment_service_port=":2333"
+payment_account="0x18d9052e5191527d1DfAb77dc6Fa108C62D8F232"
+payment_send_minutes="30"
+
+[smtpserver]
+smtp_host="smtp.gmail.com"
+smtp_sender="err.notify@mxc.org"
+smtp_password="MXCdemo500"
+smtp_port=587
+
+[m2mserver]
+m2m_service_address=""
+m2m_service_port=""
+m2m_send_minutes=""
+
+[appserver]
+app_service_address=""
+app_service_port=""
+app_send_minutes=""
+
+[networkserver]
+ns_service_address=""
+ns_service_port=""
+ns_send_minutes=""
